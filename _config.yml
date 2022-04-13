@@ -21,21 +21,22 @@ links:
 
 permalink:        /posts/:title
 
+
+collections:
+  jeans:
+    output: true
+      
+
 defaults:
   - scope:
       path: ""
       type: "jeans"
     values:
     layout: "product"
-    
   - scope:
       path: ""
     values:
       layout: "default"
 
 
-collections:
-  jeans:
-    output: true
-      
 
