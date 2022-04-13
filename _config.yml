@@ -24,3 +24,4 @@ defaults:
 
 collections:
       jeans:
+      output: true
