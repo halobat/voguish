@@ -1,0 +1,16 @@
+---
+layout: default
+title: Jeans
+---
+
+<h1>Jeans</h1>
+
+<ul>
+  {% for jean in site.jeans %}
+    <li>
+      <h2>{{ jean.name }}</h2>
+      <h3>{{ jean.price }}</h3>
+      <p>{{ jean.content | markdownify }}</p>
+    </li>
+  {% endfor %}
+</ul>
