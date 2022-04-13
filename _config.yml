@@ -23,6 +23,11 @@ permalink:        /posts/:title
 defaults:
   - values:
       layout: "default"
+   - scope:
+      path: ""
+      type: "jeans"
+    values:
+    layout: "catloop"
 
 
 collections:
@@ -31,8 +36,4 @@ collections:
       
       
 defaults:
-  - scope:
-      path: ""
-      type: "jeans"
-    values:
-      layout: "catloop"
+
