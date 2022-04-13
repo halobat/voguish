@@ -9,7 +9,7 @@ title: Jeans
   {% for jean in site.jeans %}
     <li>
       <h2>{{ jean.name }}</h2>
-      <h3>{{ jean.price }}</h3>
+      <h3>₹ {{ jean.price }}</h3>
       <p>{{ jean.content | markdownify }}</p>
     </li>
   {% endfor %}
