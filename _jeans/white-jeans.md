@@ -1,6 +1,7 @@
 ---
 short_name: white-jeans
 name: White Jeans
+price: 1,499
 Size: S | M | L | XL
 ---
 
