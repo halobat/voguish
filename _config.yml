@@ -34,7 +34,7 @@ defaults:
 
 
 collections:
-      jeans:
-      output: true
+  jeans:
+    output: true
       
 
