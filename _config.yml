@@ -22,9 +22,11 @@ links:
 permalink:        /posts/:title
 
 defaults:
-  - values:
+  - scope:
+      path: ""
+    values:
       layout: "default"
-   - scope:
+  - scope:
       path: ""
       type: "jeans"
     values:
