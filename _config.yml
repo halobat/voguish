@@ -27,6 +27,11 @@ defaults:
       type: "jeans"
     values:
     layout: "product"
+    
+  - scope:
+      path: ""
+    values:
+      layout: "default"
 
 
 collections:
