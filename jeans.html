@@ -3,14 +3,13 @@ layout: default
 title: Jeans
 ---
 
-<h1>Jeans</h1>
-
-<ul>
+<ul class="list pa0">
   {% for jean in site.jeans %}
-    <li>
-      <h2>{{ jean.name }}</h2>
-      <h3>₹ {{ jean.price }}</h3>
-      <p>{{ jean.content | markdownify }}</p>
+    <li class="mv2">
+      <a href="{{ site.url }}{{ jean.url }}" class="db pv1 link blue hover-mid-gray">
+      <time class="fr silver ttu">₹ {{ jean.price | date_to_string }} </time>
+      {{ jean.name }}
+      </a>
     </li>
   {% endfor %}
 </ul>
