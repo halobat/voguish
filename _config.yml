@@ -28,5 +28,11 @@ defaults:
 collections:
       jeans:
       output: true
-      values:
+      
+      
+defaults:
+  - scope:
+      path: ""
+      type: "jeans"
+    values:
       layout: "catloop"
