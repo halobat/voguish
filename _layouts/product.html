@@ -3,3 +3,16 @@ layout: default
 ---
 
 {{ content }}
+
+  <img class="db ba b--black-10"/
+       alt="Frank Ocean Blonde Album Cover"
+       src="{{ page.image }}"
+  >
+  <dl class="mt2 f6 lh-copy">
+    <dt class="clip">Title</dt>
+    <dd class="ml0">{{ page.name }}</dd>
+    <dt class="clip">Artist</dt>
+    <dd class="ml0 gray">(₹ {{ page.price }}</dd>
+  </dl>
+
+<a class="f6 link dim ph3 pv2 mb2 dib white bg-black" href="#">BUY NOW</a>
