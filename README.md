@@ -1,4 +1,4 @@
 # Voguish
 
-[Demo :point_left:](http://scribble.muan.co/posts/scribble-the-jekyll-theme).
+[Demo :point_left:](https://jotarokujo2.github.io/voguish/).
 
