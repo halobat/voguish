@@ -7,7 +7,7 @@ title: Jeans
   {% for jean in site.jeans %}
     <li class="mv2">
       <a href="{{ site.url }}{{ jean.url }}" class="db pv1 link blue hover-mid-gray">
-      <time class="fr silver ttu">₹ {{ jean.price | date_to_string }} </time>
+      <time class="fr silver ttu">₹ {{ jean.price }} </time>
       {{ jean.name }}
       </a>
     </li>
