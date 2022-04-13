@@ -29,14 +29,13 @@ collections:
 
 defaults:
   - scope:
-      path: ""
-      type: "jeans"
+      path: ''
     values:
-    layout: "product"
+      layout: 'default'
   - scope:
-      path: ""
+      path: ''
+      type: 'jeans'
     values:
-      layout: "default"
-
+      layout: 'jean'
 
 
