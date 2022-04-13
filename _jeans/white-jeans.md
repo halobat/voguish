@@ -1,7 +1,7 @@
 ---
 short_name: white-jeans
 name: White Jeans
-image: "https://github.com/halobat/voguish/blob/gh-pages/images/jeans.png"
+image: "https://raw.githubusercontent.com/halobat/voguish/gh-pages/images/jeans.png"
 price: 1,499
 size: S | M | L | XL
 ---
