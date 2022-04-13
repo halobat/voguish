@@ -20,6 +20,7 @@ links:
 # ------------ CONFIGURABLE END ------------
 
 permalink:        /posts/:title
+
 defaults:
   - values:
       layout: "default"
@@ -34,6 +35,4 @@ collections:
       jeans:
       output: true
       
-      
-defaults:
 
